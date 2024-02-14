@@ -18,7 +18,8 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url(img/fondo.webp);
+    background-color:#0b2dc8;
+    
 }
 
 .ml1 {
@@ -30,7 +31,7 @@
   .ml1 .letter {
     display: inline-block;
     line-height: 1em;
-    color: var(--btnencriptar);
+    color: #000000;
   }
   
   .ml1 .text-wrapper {
@@ -47,7 +48,7 @@
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: var(--btnencriptar);
+    background-color: #000000;
     transform-origin: 0 0;
   }
   
@@ -60,18 +61,19 @@
     height: 60%;
     left: 12%;
     top: 15%;
-    border: none;
+    border-radius: 0px 42px 42px 42px;
+    box-shadow: 0px 24px 38px -8px rgba(0, 0, 0, 0.75);
     font-family: var(--fuenteprincipal);
     font-style: normal;
     font-size: 32px;
     font-weight: 400;
     line-height: 150%;
-    background-color:#f9fefb;
-    opacity: 0.2;
+    background-color:#143fff;
+    
 }
 
 .texto::placeholder {
-    color:#040404
+    color:#0c2fc7
 }
 
 .texto:focus,
@@ -114,7 +116,7 @@
     padding: 2%;
     gap: 8px;
     width: 25%;
-    background-color: var(--colorprincipal);
+    background-color:#0d039b;
     font-family: var(--fuenteprincipal);
     border-radius: 24px;
     border: none;
@@ -136,7 +138,7 @@
     width: 25%;
     border: 1px solid var(--colorprincipal);
     border-radius: 24px;
-    background-color: var(--btndes);
+    background-color:linear-gradient(to right, #f0f2ff, #7379ff);
     font-family: var(--fuenteprincipal);
     font-weight: 400;
     font-size: 18px;
@@ -169,7 +171,7 @@
     height: 90%;
     left: 60%;
     top: 5%;
-    background-color: var(--colordes);
+    background-color: #a6aeff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.75);
     border-radius: 32px;
 }
